@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shopeasy</title>
+<style type="text/css">
+h {
+color:black;
+font-size:200%;
+} 
+p { 
+color:blue;
+font-size:100%;
+}
+#style {
+background-color:grey;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 18px 14px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: blue;
+}
+#option {
+  border-radius: 5px;
+  background-color: grey;
+  padding: 20px;
+  transition: width 0.4s ease-in-out;
+}
+body { 
+background-image: url("img_tree.gif");
+background-color: transparent;
+}
+
+</style>
+</head>
+<body>
+<div id="style">
+<h>SHOPEASY LIMITED</h>
+<p>Shopeasy is a convenient website where most reliable shopping sites are brought together for the customers ease.<p>
+</div>
+
+<ul>
+  <li><a href="#Amazon" class="active">Amazon</a></li>
+  <li><a href="#Alibaba">Alibaba</a></li>
+  <li><a href="#Jumia">Jumia</a></li>
+  <li><a href="#Kilimall">Kilimall</a></li>
+  <li><a href="#Jiji">Jiji</a></li>
+  <li><a href="#Bestlady">Bestlady</a></li>
+  <li><a href="#Swahili">Swahili</a></li>
+  <div id="option">
+          <label for="Others">Others</label>
+    <select id="Others" name="Others">
+    <option value="Tuskys">Tuskys</option>
+	<option value="Nakumatt">Nakumatt</option>
+	<option value="Mathai's">Mathai's</option>
+	<option value="Kassmatt">Kassmatt</option>
+	<option value="Uchumi">Uchumi</option>
+	<option value="Naivas">Naivas</option>
+	</div>
+</ul>
+
+
+
+</body>
+
+</html>
